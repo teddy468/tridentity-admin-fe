@@ -1,0 +1,39 @@
+.delete-attribute-modal {
+  .ant-modal-content {
+    width: 100%;
+    max-width: 416px;
+  }
+
+  .ant-modal-header {
+    border: none;
+    .ant-modal-title {
+      color: rgba(0, 0, 0, 0.85);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;
+      .modal-title-icon {
+        margin-right: 16px;
+        color: #faad14;
+        font-size: 22px;
+        vertical-align: bottom;
+      }
+    }
+  }
+  .ant-modal-body {
+    padding-top: 8px;
+    padding-left: 38px;
+  }
+  .delete-attribute-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+  .delete-attribute-action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+  }
+}

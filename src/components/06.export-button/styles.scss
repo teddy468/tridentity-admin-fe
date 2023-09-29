@@ -1,0 +1,16 @@
+.export-btn {
+  background: #1890ff;
+  color: #ffffff;
+  &:hover {
+    background: #1890ff;
+    color: #ffffff;
+  }
+}
+
+.csv-button {
+  display: flex;
+  align-items: center;
+  div {
+    margin-left: 10px;
+  }
+}

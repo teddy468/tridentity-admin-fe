@@ -1,0 +1,41 @@
+.radio-box {
+  .ant-radio-button-wrapper {
+    background: transparent;
+    margin: 0px 10px;
+  }
+  .ant-radio-button-wrapper:not(:first-child)::before {
+    content: none;
+  }
+  .anticon {
+    font-size: 20px;
+  }
+  .ant-radio-button-wrapper-checked:not(
+      .ant-radio-button-wrapper-disabled
+    ).reject-btn {
+    color: #fc6154;
+  }
+  .ant-radio-button-wrapper-checked:not(
+      .ant-radio-button-wrapper-disabled
+    ).accept-btn {
+    color: #269f00;
+  }
+  .reject-btn,
+  .accept-btn {
+    color: #ababb1;
+  }
+  .reject-btn:hover {
+    color: #fc6154;
+  }
+  .accept-btn:hover {
+    color: #269f00;
+  }
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+
+  .btn-reject {
+    border: 1px solid #fc6154;
+    color: #fc6154;
+  }
+}

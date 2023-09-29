@@ -1,0 +1,12 @@
+.custom-card-content {
+  margin-top: 24px;
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    .card-title {
+      font-size: 16px;
+      color: #000000d9;
+      font-weight: 600;
+    }
+  }
+}

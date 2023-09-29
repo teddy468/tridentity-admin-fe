@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"),
+    url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"),
+    url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff)
+      format("woff");
+}
+.editor-containter {
+  .rdw-editor-main {
+    a
+      > span[style*="background-color: rgb"]:not(
+        [style*="background-color: rgb(255, 255, 255)"]
+      ) {
+      display: inline-block;
+      margin: 16px;
+      padding: 12px 36px;
+      border-radius: 6px;
+    }
+  }
+}

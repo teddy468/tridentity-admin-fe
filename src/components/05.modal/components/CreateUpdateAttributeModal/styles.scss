@@ -1,0 +1,12 @@
+.create-update-attribute-modal {
+
+  .ant-modal-body {
+    padding-top: 30px;
+  }
+  .create-update-attribute-action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+  }
+}

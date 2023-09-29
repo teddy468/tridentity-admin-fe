@@ -1,0 +1,20 @@
+#scrollableDiv {
+  .name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+  }
+  .date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: rgba(56, 116, 94, 1);
+}

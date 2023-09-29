@@ -1,0 +1,56 @@
+.login-page {
+  background-image: url("../../assets/icons/common/bg-login.jpg");
+  height: 100vh;
+
+  &__wrapperLogo {
+    text-align: center;
+    img {
+      margin-top: 12%;
+    }
+  }
+
+  &__form {
+    #login {
+      max-width: 360px;
+      margin: auto;
+      position: relative;
+    }
+    margin-top: 69px;
+    &__area {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    &__info {
+      text-align: center;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+.color-default {
+  background-color: transparent !important;
+  color: rgba(24, 144, 255, 1);
+}
+
+.flex {
+  display: flex;
+}
+
+.backLogin {
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: -100%;
+  left: 0px;
+  font-size: 16px;
+  div {
+    margin-left: 12px;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,160 @@
+.product-management-page {
+  .status {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px 8px 2px 0;
+  }
+
+  .show {
+    background: #52c41a;
+  }
+
+  .hidden {
+    background: #ff4d4f;
+  }
+
+  td:last-child {
+    text-transform: capitalize;
+  }
+
+  .buttonApproveWrapper {
+    margin-top: 15px;
+    display: flex;
+    .buttonApproveList {
+      margin-left: auto;
+    }
+    .buttonDisable {
+      opacity: 0.5;
+    }
+  }
+
+  .searchWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .formItem {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+
+  .dateFilter {
+    display: flex;
+    align-items: center;
+
+    .datePicker {
+      margin-left: auto;
+    }
+  }
+
+  .buttonWrapper {
+    display: flex;
+    align-items: center;
+
+    .buttonContent {
+      margin-left: auto;
+
+      .buttonApprove {
+        background: #54ac8b;
+        border: 1px solid #d9d9d9;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .statusFilter {
+    display: flex;
+    align-items: center;
+
+    .statusLabel {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .statusSelect {
+      position: relative;
+      display: block;
+    }
+  }
+}
+
+.requestedStatus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2e90fa;
+}
+
+.createdStatus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+
+.processingStatus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f79009;
+}
+
+.paidStatus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #12b76a;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.filterReconciliation {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 8px;
+
+  .left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0 10px 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #0b0b0c;
+    }
+  }
+}
+
+.datePicker {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.totalOrder {
+  font-weight: 500;
+}
+
+.bankAccount {
+  color: #76767f;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  th: {
+    cursor: pointer;
+  }
+}

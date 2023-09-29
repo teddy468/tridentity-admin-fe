@@ -1,0 +1,142 @@
+.field-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-right: 12px;
+}
+
+.field-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+
+  .cate-item {
+    margin: 0px 0px;
+  }
+  .service-item {
+    margin-right: 10px;
+    text-transform: capitalize;
+  }
+}
+
+.a-item {
+  margin-top: 24px;
+}
+
+.b-item {
+  flex-direction: column;
+}
+
+.c-item {
+  display: flex;
+  align-items: center;
+}
+
+.color-blue {
+  color: #1890ff;
+}
+
+.title-table {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.list-ation {
+  text-align: end;
+}
+
+.account-information-box {
+  border-top: 1px solid #eaeaea;
+  margin: 24px auto;
+  // border-bottom: 1px solid #eaeaea;
+}
+
+.card-title {
+  margin-top: 24px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8509803922);
+  font-weight: 600;
+  display: block;
+}
+
+.store-imgs {
+  margin: 16px 0px;
+}
+
+.store-imgs .field-name {
+  margin-bottom: 20px;
+}
+.store-imgs img {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  object-fit: center;
+}
+
+.img-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.store-schedule-box {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  .item-schedule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .date {
+    border-right: none;
+    font-weight: 500;
+  }
+
+  .schedule-title {
+    font-weight: 500;
+  }
+}
+.btn-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0px;
+  font-size: 16px;
+  color: #4e4e54;
+  left: 50%;
+  position: absolute;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+
+.hide {
+  position: relative;
+  overflow: hidden;
+  height: 260px;
+  transition: all 0.5s ease-in-out;
+}
+.hide.open {
+  transition: all 0.5s ease-in-out;
+  min-height: 700px;
+}
+
+.btn-edit {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}

@@ -1,0 +1,65 @@
+.transaction-search {
+  margin-top: 35px !important;
+  .transaction-search-form {
+    label {
+      width: 62px;
+    }
+  }
+}
+
+.title-table {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.groupButton {
+  display: flex;
+  justify-content: space-between;
+  .button1 {
+    color: #ff4d4f;
+  }
+  .button2 {
+    color: #1890ff;
+  }
+  .button3 {
+    color: #52c41a;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.space-beetween {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+}
+
+.button1 {
+  color: #ff4d4f;
+}
+.button2 {
+  color: #1890ff;
+}
+.button3 {
+  color: #52c41a;
+}
+.footer-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}

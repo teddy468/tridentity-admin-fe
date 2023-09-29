@@ -1,0 +1,88 @@
+.performance-search {
+  margin-top: 35px !important;
+  .performance-search-form {
+    display: flex;
+    justify-content: space-between;
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+    &_id {
+      width: 25%;
+    }
+    &_detail {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 10px;
+      .ant-select-selector {
+        min-width: 200px !important;
+      }
+    }
+    &_action {
+      width: 10%;
+    }
+  }
+}
+
+.expanded-data-table {
+  &.ant-table-wrapper:only-child .ant-table {
+    margin: 0 !important;
+  }
+}
+
+.field-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.field-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-left: 12px;
+}
+
+.a-item {
+  margin-top: 24px;
+}
+
+.b-item {
+  flex-direction: column;
+}
+
+.c-item {
+  display: flex;
+  align-items: center;
+}
+
+.color-blue {
+  color: #1890ff;
+}
+
+.title-table {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.list-ation {
+  text-align: end;
+}
+
+.account-information-box {
+  border-top: 1px solid #eaeaea;
+  margin: 24px auto;
+  // border-bottom: 1px solid #eaeaea;
+}
+
+.card-title {
+  margin-top: 24px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8509803922);
+  font-weight: 600;
+}

@@ -1,0 +1,72 @@
+.transaction-search {
+  margin-top: 35px !important;
+  width: 100%;
+  .transaction-search-form {
+    label {
+      width: 62px;
+    }
+  }
+}
+
+.title-table {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.color-default {
+  background: #1890ff;
+  color: #ffffff;
+}
+
+.button1 {
+  color: #ff4d4f;
+}
+.button2 {
+  color: #1890ff;
+}
+.button3 {
+  color: #52c41a;
+}
+
+.list-button {
+  width: 200px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.list-button2 {
+  width: 182px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.active {
+  color: #1890ff !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.textDate {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 12px;
+}
+
+.listAction {
+  margin-left: 12px;
+}

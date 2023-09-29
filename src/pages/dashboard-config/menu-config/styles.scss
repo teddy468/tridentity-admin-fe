@@ -1,0 +1,144 @@
+.title {
+  font-weight: bold;
+}
+.config-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  gap: 10px;
+  .row {
+    display: grid;
+    gap: 10px;
+
+    .categoy-button {
+      width: 100%;
+      height: 100%;
+      box-shadow: none;
+      border: none;
+      background: transparent;
+      padding: 0px 0px;
+    }
+  }
+  .first-row {
+    grid-template-columns: 3fr 1fr;
+  }
+  .first-row-section-1 {
+    grid-template-columns: 5fr 2fr;
+  }
+  .first-row-section-2 {
+    grid-template-columns: 2fr 5fr;
+  }
+  .second-row {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .menu-item {
+    border: 1px dashed #000;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    &.has-category {
+      border: none;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+  }
+  .menu-item-vertical {
+    border: 1px dashed #000;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &.has-category {
+      border: none;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+  }
+  .choose-category {
+    position: absolute;
+    bottom: 10px;
+    width: fit-content;
+  }
+  .left {
+    left: 10px;
+  }
+  .right {
+    right: 10px;
+  }
+  .center {
+    margin: auto;
+  }
+}
+
+.category-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .item-index {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  }
+  .footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 32px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+
+    .name-wrapper {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+    }
+    .name {
+      font-weight: 600;
+      font-size: 32px;
+      color: #ffffff;
+      line-height: 40px;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: start;
+    }
+    .description {
+      text-align: start;
+      font-size: 16px;
+      line-height: 24px;
+      width: 100%;
+
+      color: #dbdbde;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1; /* number of lines to show */
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+  }
+}

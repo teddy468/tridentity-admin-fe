@@ -1,0 +1,35 @@
+.color-default {
+  color: rgba(24, 144, 255, 1);
+}
+
+.input-otp {
+  width: 100% !important;
+  height: 50px;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.input-otp:focus {
+  outline: none;
+  border: 1px solid rgba(24, 144, 255, 1);
+  border-radius: 5px;
+}
+
+.input-otp::placeholder {
+  color: var(--light-gray);
+}
+
+.input-otp-container {
+  justify-content: center;
+  gap: 10px;
+}
+
+.input__result {
+  display: inline-block;
+  margin: 10px auto;
+  color: rgba(0, 0, 0, 0.45);
+  &--count {
+    color: black;
+  }
+}

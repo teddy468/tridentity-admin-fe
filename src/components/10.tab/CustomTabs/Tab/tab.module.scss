@@ -1,0 +1,45 @@
+.tabWrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 16px;
+    white-space: nowrap;
+    .tabTitle {
+      color: #505058;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 520;
+      line-height: 24px;
+    }
+  }
+  &.activeTab {
+    background: #fff;
+    height: 36px;
+    padding: 1px;
+    overflow: hidden;
+    box-sizing: border-box;
+    .tab {
+      border-radius: 24px;
+      overflow: hidden;
+      background: #2E90FA;
+
+      .tabTitle {
+        color: #fff;
+        background: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 520;
+        line-height: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "src/assets/scss/responsive.scss";
+@import "src/assets/scss/variable.scss";
+
+.default-page-header {
+  font-style: normal;
+  padding: 24px 26px;
+  background: $color-pure-white;
+  width: 100%;
+ 
+  .ant-page-header-heading-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-pure-black;
+    margin-top: 12px;
+  }
+  .outer {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--light-gray);
+  }
+}
